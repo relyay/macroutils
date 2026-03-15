@@ -1,0 +1,14 @@
+macroutils
+==========
+
+Минимальные Linux CoreUtils, написанные на rust
+
+Установка
+---------
+git clone https://github.com/relyay/macroutils.git
+cd macroutils
+cargo build --release
+
+Использование
+-------------
+Бинарники будут лежать в macroutils/target/release/...

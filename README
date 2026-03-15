@@ -22,9 +22,9 @@ Benchmark
 ---------
 
 /bin/echo:  3.65 ms
-m-echo:              1.77 ms
+m-echo:     1.77 ms
 
 /bin/echo:  33 KB
-m-echo:              354 KB
+m-echo:     354 KB
 
 Despite being larger, the Rust implementation can sometimes start faster in simple benchmarks.

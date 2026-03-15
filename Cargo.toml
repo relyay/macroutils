@@ -1,0 +1,34 @@
+[package]
+name = "macroutils"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "echo"
+path = "src/bin/echo.rs"
+
+[[bin]]
+name = "cat"
+path = "src/bin/cat.rs"
+
+[[bin]]
+name = "pwd"
+path = "src/bin/pwd.rs"
+
+[[bin]]
+name = "true"
+path = "src/bin/_true.rs"
+
+[[bin]]
+name = "false"
+path = "src/bin/_false.rs"
+
+[[bin]]
+name = "touch"
+path = "src/bin/touch.rs"
+
+[[bin]]
+name = "mkdir"
+path = "src/bin/mkdir.rs"
+
+[dependencies]

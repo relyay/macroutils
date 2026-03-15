@@ -11,7 +11,7 @@ cd macroutils
 cargo build --release
 
 Usage
-=====
+-----
 
 Compiled binaries will appear in target/release
 For example:
